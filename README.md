@@ -24,5 +24,10 @@
 git clone <url-репозитория>
 cd <папка-проекта>
 ```
-# npm install
-# npm run dev
+
+### 2. Запуск приложения 
+
+```bash
+npm install
+npm run dev
+```
