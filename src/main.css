@@ -1,0 +1,14 @@
+@import "tailwindcss";
+.appContainer {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: auto 1fr;
+  transition: grid-template-columns 0.3s ease;
+}
+
+.mainContent {
+  grid-column: 2;
+  width: 100%;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
